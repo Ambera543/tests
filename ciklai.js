@@ -27,10 +27,12 @@ for(let a=4; a>=0; a--){
 // 7.console.log’e, naudojant ciklą penkiose eilutėse atspausdinti skirtingus atsitiktinius skaičius nuo 0 iki 10 (vienas skaičius vienoje eilutėje);
 for (var i = 0; i < 5; i++) {
     var count = 0;
-    for (var j = 0; j < Math.floor(Math.random() * 10)+1; j++) {
-        count++;
-    }
-    console.log(count);}
+    // for (var j = 0; j < Math.floor(Math.random() * 10)+1; j++) {
+    //   console.log(j)
+    //     count++;
+    // }
+    console.log(Math.floor(Math.random() * 10)+1)
+  }
     console.log("8---------");
 // 8.console.log’e, naudojant ciklą atspausdinti skirtingus atsitiktinius skaičius nuo 0 iki 10 (vienas skaičius vienoje eilutėje). Paskutinis atspausdintas skaičius turi būti 5;
 var number = 5;
@@ -41,13 +43,12 @@ while(x !== number){
 }
 console.log("9---------");
 // 9.console.log’e, naudojant ciklą atspausdinti atsitiktinius skirtingus skaičius nuo 0 iki 10 (vienas skaičius vienoje eilutėje). Ciklas turi pasibaigti tada, kai atsitiktinių skaičių suma viršija 100;
-var number = 5;
-var x = 0;
-while(x !== number){
-  x = Math.floor((Math.random() * 10) + 1);
-  console.log(x);
-}
-console.log("10---------");
+// function getRandomNumberBetween(min,max){  ()
+//   return Math.floor(Math.random()*(max-min+1)+min);
+  
+// }
+console.log(getRandomNumberBetween(1,10))
+ console.log("10---------");
 // 10.console.log’e, naudojant ciklą atspausdinti skirtingus atsitiktinius skaičius nuo 0 iki 10 (vienas skaičius vienoje eilutėje). Paskutinis atspausdintas skaičius turi būti 5 arba 7; Suskaičiuoti kiek ciklų prasisuko;
 // 11. console.log’e, naudojant ciklą atspausdinti atsitiktinius skirtingus skaičius nuo 0 iki 10 (vienas skaičius vienoje eilutėje). Ciklas turi pasibaigti tada, kai atsitiktinių skaičių suma viršija 20, bet ne anksčiau nei po 11 ciklų;
 // 12. console.log’e, naudojant ciklą atspausdinti skirtingus atsitiktinius skaičius nuo 0 iki 10 (vienas skaičius vienoje eilutėje). Ciklą kartoti kol bus sugeneruoti trys nelyginiai skaičiai;
